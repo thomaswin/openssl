@@ -12,7 +12,7 @@
 		E0190EFA1EC4522C00353D3B /* NETSSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = E0190EEC1EC4522C00353D3B /* NETSSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0190F051EC4525F00353D3B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0190F031EC4525F00353D3B /* libcrypto.a */; };
 		E0190F061EC4525F00353D3B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0190F041EC4525F00353D3B /* libssl.a */; };
-		E0190F091EC452DD00353D3B /* RSAWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0190F071EC452DD00353D3B /* RSAWrapper.h */; };
+		E0190F091EC452DD00353D3B /* RSAWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0190F071EC452DD00353D3B /* RSAWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0190F0A1EC452DD00353D3B /* RSAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0190F081EC452DD00353D3B /* RSAWrapper.m */; };
 /* End PBXBuildFile section */
 
@@ -422,6 +422,7 @@
 				E0190EFF1EC4522C00353D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0190F001EC4522C00353D3B /* Build configuration list for PBXNativeTarget "NETSSecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				E0190F021EC4522C00353D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
