@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/thomaswin/openssl.git" }
 
-  s.source_files  = "NETSSecurity", "NETSSecurity/**/*.{h,m}"
+  s.source_files  = "NETSSecurity/**/*.{h,m}", "include-ios/openssl/**/*.h"
   s.public_header_files = 'include-ios/openssl/**/*.h'
 
   s.header_dir          = 'openssl'
