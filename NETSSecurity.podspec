@@ -21,4 +21,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
   s.libraries           = 'ssl', 'crypto'
 
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PROJECT_DIR)/include-ios" }
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PROJECT_DIR)/NETSSecurity" }
+
 end
